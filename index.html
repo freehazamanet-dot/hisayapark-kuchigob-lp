@@ -1,0 +1,1774 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ひさぱ式口ゴボ矯正｜久屋パーク歯科・矯正歯科｜名古屋・栄</title>
+<meta name="description" content="口ゴボに特化した「ひさぱ式口ゴボ矯正」。マウスピース矯正症例数日本No.1、月々44,000円から。相談・検査無料。栄駅徒歩1分。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+/* ===== Reset & Base ===== */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; font-size: 16px; }
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #2d2d2d;
+  line-height: 1.8;
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+img { max-width: 100%; height: auto; display: block; }
+a { text-decoration: none; color: inherit; }
+sup { font-size: 0.6em; }
+.poppins { font-family: 'Poppins', sans-serif; }
+
+/* ===== Container ===== */
+.container { max-width: 800px; margin: 0 auto; padding: 0 20px; }
+
+/* ===== Animations ===== */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes pulse { 0%,100%{transform:scale(1)} 50%{transform:scale(1.05)} }
+
+.aos { opacity: 0; transform: translateY(30px); transition: all 0.6s cubic-bezier(0.22, 1, 0.36, 1); }
+.aos.visible { opacity: 1; transform: translateY(0); }
+
+/* ===== Section ===== */
+.section { padding: 72px 0; }
+.section-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #fdf2f0;
+  color: #c57888;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  padding: 5px 14px;
+  border-radius: 100px;
+  margin-bottom: 14px;
+}
+.section-title {
+  font-size: clamp(1.4rem, 4.5vw, 2rem);
+  font-weight: 900;
+  line-height: 1.55;
+  color: #3d2c2c;
+  margin-bottom: 16px;
+}
+.section-title .accent { color: #c57888; }
+.section-title .gold { color: #b8860b; }
+.section-lead {
+  font-size: 0.92rem;
+  color: #555;
+  line-height: 1.9;
+  margin-bottom: 32px;
+}
+.text-center { text-align: center; }
+
+/* ===== Buttons ===== */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 17px 40px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: all 0.3s;
+  cursor: pointer;
+  border: none;
+}
+.btn-primary {
+  background: linear-gradient(135deg, #d4899a, #b5677a);
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(197, 120, 138, 0.3);
+  width: 100%;
+  max-width: 400px;
+}
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(197, 120, 138, 0.4);
+}
+
+/* ===== FV ===== */
+.fv {
+  position: relative;
+  padding: 56px 0 40px;
+  background: linear-gradient(160deg, #fdf6f5 0%, #f8ece9 40%, #fef5f0 100%);
+  overflow: hidden;
+}
+.fv-label {
+  display: inline-block;
+  background: #c57888;
+  color: #fff;
+  padding: 5px 16px;
+  border-radius: 4px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  animation: fadeInUp 0.6s ease 0.1s both;
+}
+.fv-headline {
+  font-size: clamp(1.8rem, 6vw, 2.6rem);
+  font-weight: 900;
+  color: #3d2c2c;
+  line-height: 1.4;
+  margin-bottom: 16px;
+  animation: fadeInUp 0.6s ease 0.2s both;
+}
+.fv-headline .highlight {
+  background: linear-gradient(transparent 60%, #f8d4c8 60%);
+  padding: 0 4px;
+}
+.fv-sub {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 24px;
+  line-height: 1.8;
+  animation: fadeInUp 0.6s ease 0.3s both;
+}
+.fv-sub strong { color: #c57888; font-size: 1.15em; }
+.fv-note { font-size: 0.72rem; color: #999; margin-top: 10px; }
+.fv-ba {
+  display: flex;
+  gap: 8px;
+  margin-top: 28px;
+  animation: fadeInUp 0.6s ease 0.4s both;
+}
+.fv-ba-wrap {
+  flex: 1;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  background: #f0e8e5;
+  aspect-ratio: 3/4;
+}
+.fv-ba-label {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  padding: 3px 12px;
+  border-radius: 4px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #fff;
+  z-index: 2;
+}
+.fv-ba-label.before { background: #94a3b8; }
+.fv-ba-label.after { background: #c57888; }
+.fv-ba-placeholder {
+  width: 100%; height: 100%;
+  display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 4px;
+  font-size: 0.75rem; color: #a08080;
+}
+.fv-ba-placeholder .icon { font-size: 2rem; }
+.fv-arrow { display: flex; align-items: center; font-size: 1.5rem; color: #c57888; font-weight: 900; }
+
+/* Badges */
+.badges {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  max-width: 800px;
+  margin: 28px auto 0;
+  padding: 0 20px;
+  flex-wrap: wrap;
+}
+.badge {
+  background: #fff;
+  border-radius: 12px;
+  padding: 14px 10px;
+  text-align: center;
+  flex: 1;
+  min-width: 130px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+.badge-icon { display: block; font-size: 1.3rem; margin-bottom: 2px; }
+.badge-label { display: block; font-size: 0.7rem; color: #888; }
+.badge strong { display: block; font-size: 0.95rem; color: #c57888; margin-top: 2px; }
+
+/* ===== About (ひさぱ式とは) ===== */
+.about { background: #fff; }
+.feature-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 28px 0;
+}
+.feature-card {
+  background: #fdf6f5;
+  border-radius: 16px;
+  padding: 24px;
+  border-left: 4px solid #c57888;
+}
+.feature-card-num {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 800;
+  color: #c57888;
+  letter-spacing: 0.1em;
+  margin-bottom: 4px;
+}
+.feature-card h3 {
+  font-size: 1.05rem;
+  font-weight: 900;
+  color: #3d2c2c;
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+.feature-card p {
+  font-size: 0.88rem;
+  color: #555;
+  line-height: 1.8;
+}
+
+/* Compare Table */
+.compare-wrap { overflow-x: auto; margin: 24px 0; }
+.compare-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+.compare-table th, .compare-table td {
+  padding: 12px 14px;
+  text-align: center;
+  border-bottom: 1px solid #e8e0dd;
+}
+.compare-table th { background: #3d2c2c; color: #fff; font-weight: 700; }
+.compare-table th.hisapa { background: #c57888; }
+.compare-table td:last-child { color: #c57888; font-weight: 600; }
+
+/* ===== Results (実績) ===== */
+.results { background: #fdf6f5; }
+.counter-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-bottom: 32px;
+}
+.counter-item {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px 12px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+}
+.counter-value {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #c57888;
+  line-height: 1.2;
+}
+.counter-value span { font-size: 0.7em; }
+.counter-label {
+  font-size: 0.72rem;
+  color: #777;
+  margin-top: 4px;
+  line-height: 1.5;
+}
+
+/* Doctor */
+.doctor-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 28px 24px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+}
+.doctor-top {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.doctor-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #fdf6f5, #f0e0dc);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  flex-shrink: 0;
+}
+.doctor-info h3 { font-size: 1.15rem; font-weight: 900; color: #3d2c2c; margin-bottom: 2px; }
+.doctor-info .name-en { font-family: 'Poppins', sans-serif; font-size: 0.75rem; color: #aaa; margin-bottom: 8px; }
+.doctor-badges { display: flex; flex-wrap: wrap; gap: 6px; }
+.doc-badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 100px;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+.doc-badge.rose { background: #fdf2f0; color: #c57888; }
+.doc-badge.gold { background: #fef9e7; color: #b8860b; }
+.doctor-credentials {
+  list-style: none;
+  font-size: 0.82rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+.doctor-credentials li { padding: 3px 0; }
+.doctor-credentials li::before { content: '・'; color: #c57888; }
+.doctor-msg {
+  background: #fdf6f5;
+  border-radius: 12px;
+  padding: 20px;
+  font-size: 0.88rem;
+  color: #444;
+  line-height: 1.9;
+}
+.doctor-msg strong { color: #3d2c2c; }
+
+/* Second Opinion */
+.second-opinion {
+  background: #fff;
+  border: 2px solid #e8c4c4;
+  border-radius: 16px;
+  padding: 24px;
+  margin-top: 24px;
+}
+.second-opinion h4 {
+  font-size: 0.95rem;
+  font-weight: 900;
+  color: #c57888;
+  margin-bottom: 8px;
+}
+.second-opinion p {
+  font-size: 0.88rem;
+  color: #555;
+  line-height: 1.8;
+}
+
+/* ===== Cases (症例) ===== */
+.cases { background: #fff; }
+.case-cards { display: flex; flex-direction: column; gap: 32px; }
+.case-card {
+  background: #fdf6f5;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+}
+.case-images { display: flex; }
+.case-img-wrap {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 3/4;
+  background: #f0e8e5;
+}
+.case-label {
+  position: absolute;
+  top: 8px; left: 8px;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #fff;
+  z-index: 2;
+}
+.case-label.before { background: #94a3b8; }
+.case-label.after { background: #c57888; }
+.case-placeholder {
+  width: 100%; height: 100%;
+  display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 4px;
+  font-size: 0.72rem; color: #a08080;
+}
+.case-placeholder .icon { font-size: 2rem; }
+.case-info { padding: 16px 20px; }
+.case-point { font-weight: 700; color: #3d2c2c; margin-bottom: 6px; font-size: 0.92rem; }
+.case-detail { font-size: 0.82rem; color: #666; }
+.case-risk { font-size: 0.72rem; color: #999; margin-top: 6px; line-height: 1.6; }
+.case-note { text-align: center; font-size: 0.78rem; color: #999; margin-top: 24px; }
+
+/* ===== Merits ===== */
+.merits { background: #fdf6f5; }
+.merit-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 28px 24px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+}
+.merit-num {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 800;
+  color: #c57888;
+  letter-spacing: 0.1em;
+  margin-bottom: 6px;
+}
+.merit-card h3 {
+  font-size: 1.1rem;
+  font-weight: 900;
+  color: #3d2c2c;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+.merit-card p {
+  font-size: 0.88rem;
+  color: #555;
+  line-height: 1.8;
+}
+.merit-card strong { color: #c57888; }
+
+/* Price Table */
+.price-table-wrap { overflow-x: auto; margin: 16px 0; }
+.price-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+.price-table th, .price-table td {
+  padding: 12px 14px;
+  text-align: center;
+  border-bottom: 1px solid #e8e0dd;
+}
+.price-table th { background: #3d2c2c; color: #fff; font-weight: 700; }
+.price-table .highlight-row { background: #fdf2f0; }
+.price-table .highlight-row td { color: #c57888; font-weight: 700; }
+
+/* Zero Grid */
+.zero-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin: 16px 0;
+}
+.zero-card {
+  background: #fdf6f5;
+  border: 2px solid #f0d4d4;
+  border-radius: 12px;
+  padding: 12px 8px;
+  text-align: center;
+}
+.zero-label { display: block; font-size: 0.72rem; color: #666; margin-bottom: 2px; }
+.zero-price { display: block; font-size: 1.1rem; font-weight: 900; color: #c57888; }
+.zero-note { font-size: 0.72rem; color: #999; }
+
+/* Compare with Others */
+.compare-others { overflow-x: auto; margin: 16px 0; }
+.others-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+}
+.others-table th, .others-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #e8e0dd;
+  text-align: center;
+}
+.others-table th { background: #fdf2f0; color: #c57888; font-weight: 700; }
+.others-table td:last-child { color: #c57888; font-weight: 700; }
+
+/* Access Card */
+.access-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-top: 20px;
+}
+.acc-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.acc-icon { font-size: 1.5rem; margin-bottom: 4px; }
+.acc-title { font-size: 0.88rem; font-weight: 900; color: #3d2c2c; margin-bottom: 2px; }
+.acc-desc { font-size: 0.78rem; color: #777; line-height: 1.6; }
+
+/* ===== Steps ===== */
+.steps { background: #fff; }
+.step-list { position: relative; padding-left: 44px; }
+.step-list::before {
+  content: '';
+  position: absolute;
+  left: 17px; top: 0; bottom: 0;
+  width: 2px;
+  background: #e8d4d4;
+}
+.step-item {
+  position: relative;
+  margin-bottom: 28px;
+}
+.step-num {
+  position: absolute;
+  left: -44px; top: 0;
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  background: #c57888;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.step-item h4 { font-size: 1rem; font-weight: 900; color: #3d2c2c; margin-bottom: 4px; }
+.step-item p { font-size: 0.85rem; color: #555; line-height: 1.8; }
+
+/* ===== FAQ ===== */
+.faq-section { background: #fdf6f5; }
+.faq-list { max-width: 680px; margin: 0 auto; }
+.faq-item {
+  background: #fff;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+  overflow: hidden;
+}
+.faq-q {
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 0.92rem;
+  color: #3d2c2c;
+}
+.faq-q-badge {
+  flex-shrink: 0;
+  width: 28px; height: 28px;
+  border-radius: 50%;
+  background: #c57888;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.faq-q-text { flex: 1; }
+.faq-toggle {
+  font-size: 1.3rem;
+  color: #c57888;
+  transition: transform 0.3s;
+}
+.faq-item.open .faq-toggle { transform: rotate(45deg); }
+.faq-a {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+.faq-item.open .faq-a { max-height: 300px; }
+.faq-a-inner {
+  padding: 0 20px 16px 58px;
+  font-size: 0.88rem;
+  color: #555;
+  line-height: 1.8;
+}
+
+/* ===== CTA Section ===== */
+.cta-section {
+  padding: 56px 0;
+  background: linear-gradient(160deg, #fdf6f5 0%, #f8ece9 50%, #fef0f5 100%);
+  text-align: center;
+}
+.cta-box {
+  max-width: 520px;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 4px;
+}
+.cta-heading {
+  font-size: clamp(1.15rem, 3.5vw, 1.4rem);
+  font-weight: 900;
+  color: #3d2c2c;
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+.cta-badges {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.cta-badge {
+  background: #fff;
+  padding: 6px 14px;
+  border-radius: 100px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #555;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+.cta-notes {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 10px;
+  font-size: 0.78rem;
+  color: #999;
+}
+.cta-notes span::before { content: '✓ '; color: #c57888; }
+
+/* ===== Closing ===== */
+.closing { background: #fff; }
+.closing-box {
+  background: linear-gradient(160deg, #fdf6f5, #f8ece9);
+  border-radius: 24px;
+  padding: 36px 24px;
+  text-align: center;
+}
+.closing-heading {
+  font-size: clamp(1.2rem, 4vw, 1.6rem);
+  font-weight: 900;
+  color: #3d2c2c;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+.closing-text {
+  font-size: 0.92rem;
+  color: #555;
+  line-height: 1.9;
+  margin-bottom: 24px;
+}
+.check-list {
+  list-style: none;
+  max-width: 300px;
+  margin: 0 auto 24px;
+  text-align: left;
+}
+.check-list li {
+  font-size: 0.88rem;
+  color: #444;
+  padding: 4px 0;
+}
+.check-list li::before { content: '✅ '; }
+.cta-triple {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+}
+.btn-line {
+  background: #06C755;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(6,199,85,0.3);
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.btn-line:hover { box-shadow: 0 6px 20px rgba(6,199,85,0.4); transform: translateY(-2px); }
+.btn-tel {
+  background: #fff;
+  color: #3d2c2c;
+  border: 2px solid #ddd;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.btn-tel:hover { background: #faf7f5; }
+.clinic-info {
+  margin-top: 28px;
+  font-size: 0.82rem;
+  color: #777;
+  line-height: 1.8;
+}
+.clinic-info strong { color: #3d2c2c; font-size: 0.92rem; }
+
+/* ===== Footer ===== */
+.footer {
+  background: #3d2c2c;
+  color: rgba(255,255,255,0.6);
+  text-align: center;
+  padding: 24px 20px;
+  font-size: 0.78rem;
+}
+
+/* ===== Floating CTA ===== */
+.float-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255,255,255,0.96);
+  backdrop-filter: blur(10px);
+  padding: 10px 16px;
+  box-shadow: 0 -2px 20px rgba(0,0,0,0.1);
+  z-index: 999;
+  text-align: center;
+}
+.float-bar .btn-primary { max-width: 360px; font-size: 0.92rem; padding: 14px 32px; }
+.float-bar-sub { font-size: 0.7rem; color: #999; margin-top: 4px; }
+
+/* ===== Notes ===== */
+.lp-notes {
+  background: #faf7f5;
+  padding: 24px 0;
+}
+.lp-notes p {
+  font-size: 0.72rem;
+  color: #999;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ===== Nav Menu ===== */
+.nav-menu {
+  position: sticky;
+  top: 0;
+  z-index: 998;
+  background: rgba(255,255,255,0.95);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 1px 8px rgba(0,0,0,0.06);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.nav-menu::-webkit-scrollbar { display: none; }
+.nav-inner {
+  display: flex;
+  gap: 0;
+  max-width: 800px;
+  margin: 0 auto;
+  white-space: nowrap;
+}
+.nav-item {
+  flex-shrink: 0;
+  padding: 12px 16px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #777;
+  text-align: center;
+  transition: color 0.2s;
+  cursor: pointer;
+}
+.nav-item:hover, .nav-item.active { color: #c57888; }
+
+/* ===== Patient Gallery ===== */
+.gallery { background: #fdf6f5; }
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-top: 20px;
+}
+.gallery-item {
+  border-radius: 12px;
+  overflow: hidden;
+  aspect-ratio: 1;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.gallery-item img { width: 100%; height: 100%; object-fit: cover; }
+.gallery-ph {
+  width: 100%; height: 100%;
+  display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 4px;
+  background: linear-gradient(135deg, #fff, #fdf6f5);
+  font-size: 0.7rem; color: #bba0a0; text-align: center; padding: 8px;
+}
+.gallery-ph .icon { font-size: 1.5rem; }
+
+/* ===== Video Section ===== */
+.video-section { background: #fff; }
+.video-card {
+  background: #fdf6f5;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+  margin-bottom: 24px;
+}
+.video-placeholder {
+  aspect-ratio: 16/9;
+  background: linear-gradient(135deg, #3d2c2c, #5a4040);
+  display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 8px;
+  color: rgba(255,255,255,0.7);
+  font-size: 0.85rem;
+}
+.video-placeholder .play-icon {
+  width: 60px; height: 60px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.2);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.5rem;
+}
+.video-caption {
+  padding: 16px 20px;
+  font-size: 0.88rem;
+  color: #444;
+  line-height: 1.8;
+}
+.video-caption strong { color: #3d2c2c; }
+
+/* ===== 3D Simulation ===== */
+.sim-video-wrap {
+  margin: 20px 0;
+  border-radius: 16px;
+  overflow: hidden;
+  background: linear-gradient(135deg, #e8f0f5, #f0f5f8);
+  aspect-ratio: 16/9;
+  display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 8px;
+  color: #5a7888;
+  font-size: 0.85rem;
+}
+.sim-video-wrap .play-icon {
+  width: 56px; height: 56px;
+  border-radius: 50%;
+  background: rgba(90,120,136,0.15);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.3rem;
+}
+
+/* ===== Pricing Section ===== */
+.pricing { background: #fff; }
+.pricing-card {
+  background: #fdf6f5;
+  border-radius: 20px;
+  padding: 28px 24px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.04);
+  margin-bottom: 20px;
+}
+.pricing-card.recommended {
+  border: 3px solid #c57888;
+  position: relative;
+}
+.pricing-recommend-badge {
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(135deg, #d4899a, #b5677a);
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 900;
+  padding: 5px 24px;
+  border-radius: 100px;
+  white-space: nowrap;
+}
+.pricing-name {
+  font-size: 1.1rem;
+  font-weight: 900;
+  color: #3d2c2c;
+  margin-bottom: 4px;
+}
+.pricing-desc {
+  font-size: 0.82rem;
+  color: #777;
+  margin-bottom: 12px;
+}
+.pricing-price {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #c57888;
+  line-height: 1.2;
+}
+.pricing-price .yen { font-size: 1rem; }
+.pricing-price .tax { font-size: 0.7rem; color: #999; font-weight: 400; }
+.pricing-monthly {
+  font-size: 0.85rem;
+  color: #555;
+  margin-top: 4px;
+}
+.pricing-includes {
+  list-style: none;
+  margin-top: 12px;
+  font-size: 0.82rem;
+  color: #555;
+}
+.pricing-includes li {
+  padding: 3px 0;
+}
+.pricing-includes li::before { content: '✅ '; }
+.pricing-not-included li::before { content: '— '; color: #ccc; }
+
+/* ===== Image Placeholder ===== */
+.img-ph {
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 6px;
+  font-size: 0.78rem; color: #a08080; text-align: center; padding: 16px;
+}
+.img-ph .icon { font-size: 2rem; }
+.img-ph .label { font-weight: 700; color: #777; font-size: 0.82rem; }
+.img-ph .hint { font-size: 0.7rem; color: #bbb; }
+.img-ph-rose { background: linear-gradient(135deg, #fdf6f5, #f8ece9); }
+.img-ph-mint { background: linear-gradient(135deg, #e8f5f0, #f0f8f5); }
+.img-ph-blue { background: linear-gradient(135deg, #e8f0f8, #f0f5fa); }
+.img-ph-gold { background: linear-gradient(135deg, #fef9e7, #fdf0d0); }
+
+/* ===== Responsive ===== */
+@media (max-width: 600px) {
+  .counter-grid { grid-template-columns: repeat(2, 1fr); }
+  .zero-grid { grid-template-columns: repeat(2, 1fr); }
+  .access-cards { grid-template-columns: 1fr; }
+  .doctor-top { flex-direction: column; align-items: center; text-align: center; }
+  .doctor-badges { justify-content: center; }
+  .gallery-grid { grid-template-columns: repeat(3, 1fr); }
+  .nav-item { padding: 10px 12px; font-size: 0.7rem; }
+}
+</style>
+</head>
+<body>
+
+<!-- ===== ① FV ===== -->
+<section class="fv">
+  <div class="container">
+    <!-- FVメイン写真: 口ゴボ改善の横顔ビジュアル -->
+    <div class="img-ph img-ph-rose aos" style="aspect-ratio:16/9; margin-bottom:20px; border-radius:20px;">
+      <span class="icon">📸</span>
+      <span class="label">FVメインビジュアル</span>
+      <span class="hint">口ゴボ改善の横顔Before/After or 笑顔の女性</span>
+      <span class="hint">※画面幅いっぱいのインパクトある写真</span>
+    </div>
+    <div class="fv-label">ひさぱ式口ゴボ矯正｜名古屋・栄</div>
+    <h1 class="fv-headline">
+      <span class="highlight">横顔が変わると、</span><br>
+      人生が変わる。
+    </h1>
+    <p class="fv-sub">
+      口ゴボ治療 症例数<strong>日本No.1</strong><sup>※</sup>の矯正歯科が、あなたの横顔を変えます。<br>
+      相談・検査 <strong>0円</strong>
+    </p>
+
+    <div class="fv-ba">
+      <div class="fv-ba-wrap">
+        <span class="fv-ba-label before">Before</span>
+        <div class="fv-ba-placeholder"><span class="icon">🦷</span><span>横顔Before写真</span></div>
+      </div>
+      <div class="fv-arrow">→</div>
+      <div class="fv-ba-wrap">
+        <span class="fv-ba-label after">After</span>
+        <div class="fv-ba-placeholder"><span class="icon">✨</span><span>横顔After写真</span></div>
+      </div>
+    </div>
+
+    <div style="text-align:center; margin-top:24px;">
+      <a href="#contact" class="btn btn-primary">あなたの横顔、どう変わる？ 無料で相談する</a>
+      <p class="fv-note">※ストローマン調べ：クリアコレクト症例数（2025年10月時点）</p>
+    </div>
+  </div>
+
+  <div class="badges">
+    <div class="badge"><span class="badge-icon">🏆</span><span class="badge-label">症例数</span><strong>日本No.1<sup>※</sup></strong></div>
+    <div class="badge"><span class="badge-icon">📋</span><span class="badge-label">矯正実績</span><strong>4,121件</strong></div>
+    <div class="badge"><span class="badge-icon">💰</span><span class="badge-label">相談・検査</span><strong>0円</strong></div>
+    <div class="badge"><span class="badge-icon">📍</span><span class="badge-label">栄駅</span><strong>徒歩1分</strong></div>
+  </div>
+</section>
+
+<!-- ===== Nav Menu ===== -->
+<nav class="nav-menu" id="navMenu">
+  <div class="nav-inner">
+    <a class="nav-item" href="#about">ひさぱ式とは</a>
+    <a class="nav-item" href="#results">実績</a>
+    <a class="nav-item" href="#case-section">症例</a>
+    <a class="nav-item" href="#pricing-section">料金</a>
+    <a class="nav-item" href="#merits-section">メリット</a>
+    <a class="nav-item" href="#flow">治療の流れ</a>
+    <a class="nav-item" href="#faq-section">FAQ</a>
+    <a class="nav-item" href="#contact">無料相談</a>
+  </div>
+</nav>
+
+<!-- ===== ② ひさぱ式口ゴボ矯正とは ===== -->
+<section class="section about" id="about">
+  <div class="container">
+    <div class="text-center aos">
+      <span class="section-tag">🦷 ABOUT</span>
+      <h2 class="section-title">「口ゴボ」に特化した矯正、<br><span class="accent">始めました。</span></h2>
+    </div>
+
+    <p class="section-lead aos">
+      ひさぱ式口ゴボ矯正は、<strong>口元の突出（口ゴボ）の改善に特化した矯正プログラム</strong>です。<br>
+      骨格・横顔のライン・Eライン・口唇の緊張——すべてを計算した治療設計。<br>
+      4,121件の矯正実績から得た知見を、口ゴボ治療に集約しました。
+    </p>
+
+    <!-- 口ゴボの横顔ライン解説イメージ -->
+    <div class="img-ph img-ph-blue aos" style="aspect-ratio:4/3; margin-bottom:28px;">
+      <span class="icon">🦷</span>
+      <span class="label">口ゴボのEライン解説イメージ</span>
+      <span class="hint">横顔の図解: 口ゴボの状態 → 改善後のEライン</span>
+      <span class="hint">※イラスト or 実際の横顔写真に線を引いたもの</span>
+    </div>
+
+    <div class="feature-cards">
+      <div class="feature-card aos">
+        <span class="feature-card-num">FEATURE 01</span>
+        <h3>口ゴボ専用の治療設計</h3>
+        <p>一般的な矯正のゴールは「歯並びを整える」こと。ひさぱ式のゴールは<strong>「横顔のシルエットを変える」</strong>こと。Eラインまで計算した、口ゴボに特化した治療計画を作成します。</p>
+        <div class="img-ph img-ph-rose" style="aspect-ratio:16/9; margin-top:12px;">
+          <span class="icon">📐</span>
+          <span class="label">治療計画モニター画面</span>
+          <span class="hint">院長がモニターで3D治療計画を説明している写真</span>
+        </div>
+      </div>
+      <div class="feature-card aos">
+        <span class="feature-card-num">FEATURE 02</span>
+        <h3>3Dで「治療後のあなた」が見える</h3>
+        <p>治療前に、3Dシミュレーションで治療後の横顔をお見せします。「本当に変わるの？」の不安を、目で見て解消できます。</p>
+
+        <!-- 3Dシミュレーション動画 -->
+        <div class="sim-video-wrap" style="margin-top:16px;">
+          <div class="play-icon">▶</div>
+          <p>3Dシミュレーション動画をここに埋め込み</p>
+          <p style="font-size:0.7rem; color:#8aa0a8;">※歯が動いていく様子がわかる動画</p>
+        </div>
+      </div>
+      <div class="feature-card aos">
+        <span class="feature-card-num">FEATURE 03</span>
+        <h3>528,000円。相談・検査0円。12回分割なら手数料も0円。</h3>
+        <p>無制限コースでも528,000円（税込）。他院の相場（80〜100万円）の約半額です。さらに相談・検査・調整料・保定装置まですべて0円。12回分割なら手数料0円で月々44,000円。デンタルローンを使えば<strong>月々約8,000円〜</strong>も可能です。</p>
+        <div class="img-ph img-ph-mint" style="aspect-ratio:16/9; margin-top:12px;">
+          <span class="icon">😊</span>
+          <span class="label">マウスピース装着イメージ</span>
+          <span class="hint">透明なマウスピースを装着した笑顔の女性</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center aos" style="margin-top:32px;">
+      <a href="#contact" class="btn btn-primary">ひさぱ式、もっと詳しく聞いてみる</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA 1 ===== -->
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-box aos">
+      <div class="cta-heading">相談・検査は<span class="accent">0円</span>。<br>まずはあなたの口ゴボの状態を<br>確認してみませんか？</div>
+      <div class="cta-badges">
+        <span class="cta-badge">🕐 所要 約60分</span>
+        <span class="cta-badge">💰 完全無料</span>
+        <span class="cta-badge">🤝 勧誘なし</span>
+      </div>
+      <a href="#contact" class="btn btn-primary">無料で相談・検査する</a>
+      <div class="cta-notes">
+        <span>相談だけでもOK</span>
+        <span>24時間WEB受付</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ③ ひさぱ式口ゴボ矯正の実績 ===== -->
+<section class="section results" id="results">
+  <div class="container">
+    <div class="text-center aos">
+      <span class="section-tag">🏆 RESULTS</span>
+      <h2 class="section-title">口ゴボ治療の実力は、<br><span class="accent">数字が証明</span>しています。</h2>
+    </div>
+
+    <!-- 表彰写真 -->
+    <div class="img-ph img-ph-gold aos" style="aspect-ratio:16/9; margin-bottom:24px;">
+      <span class="icon">🏆</span>
+      <span class="label">メーカー社長からの表彰写真</span>
+      <span class="hint">ストローマン社からの表彰シーンの写真</span>
+    </div>
+
+    <div class="counter-grid aos">
+      <div class="counter-item">
+        <div class="counter-value poppins">No.1<span>※</span></div>
+        <div class="counter-label">マウスピース矯正<br>症例数</div>
+      </div>
+      <div class="counter-item">
+        <div class="counter-value poppins">4,121<span>件</span></div>
+        <div class="counter-label">矯正の<br>総症例数</div>
+      </div>
+      <div class="counter-item">
+        <div class="counter-value poppins">20<span>年+</span></div>
+        <div class="counter-label">院長の<br>矯正歴</div>
+      </div>
+      <div class="counter-item">
+        <div class="counter-value poppins">2,000<span>件+</span></div>
+        <div class="counter-label">マウスピース矯正<br>だけの症例数</div>
+      </div>
+    </div>
+
+    <div class="doctor-card aos">
+      <!-- 院長写真（大きめ） -->
+      <div class="img-ph img-ph-rose" style="aspect-ratio:3/2; margin-bottom:20px;">
+        <span class="icon">👨‍⚕️</span>
+        <span class="label">院長写真（大）</span>
+        <span class="hint">白衣・笑顔・上半身〜全身の信頼感ある写真</span>
+      </div>
+      <div class="doctor-top">
+        <div class="doctor-photo">👨‍⚕️</div>
+        <div class="doctor-info">
+          <h3>座馬 良明</h3>
+          <p class="name-en">Yoshiaki Zanma</p>
+          <div class="doctor-badges">
+            <span class="doc-badge gold">🏆 症例数日本No.1</span>
+            <span class="doc-badge rose">矯正歴20年+</span>
+          </div>
+        </div>
+      </div>
+
+      <ul class="doctor-credentials">
+        <li>クリアコレクト症例数 日本No.1</li>
+        <li>マウスピース矯正 症例2,000件以上</li>
+        <li>インビザライン認定医</li>
+        <li>歯科医師臨床研修指導医</li>
+        <li>藤田保健衛生大学医学部付属病院 口腔外科研究生修了</li>
+      </ul>
+
+      <div class="doctor-msg">
+        口ゴボで悩んでいる方に、まず知ってほしいことがあります。<br><br>
+        <strong>口ゴボは、矯正で改善できる症状です。</strong><br><br>
+        「自分の口ゴボは治るのかな」と思っている方——おそらくあなたと似た症例を、私はすでに何十件も治療しています。<br><br>
+        まずは無料の検査を受けてみてください。3Dシミュレーションで、あなたの口元がどう変わるかお見せできます。
+      </div>
+    </div>
+
+    <div class="second-opinion aos">
+      <h4>他院で「マウスピースでは難しい」と言われた方へ</h4>
+      <p>他院で断られた方も、ぜひ一度ご相談ください。当院では、他院で対応が難しいとされた口ゴボ症例の治療実績も多数あります。日本No.1の症例数を持つ当院だからこそ、対応できるケースがあります。</p>
+    </div>
+
+    <p style="text-align:center; font-size:0.72rem; color:#999; margin-top:16px;">※ストローマン調べ：クリアコレクト症例数（2025年10月時点）</p>
+  </div>
+</section>
+
+<!-- ===== 患者様ギャラリー ===== -->
+<section class="section gallery">
+  <div class="container">
+    <div class="text-center aos">
+      <span class="section-tag">📸 GALLERY</span>
+      <h2 class="section-title">たくさんの患者様の<br><span class="accent">笑顔を支えています</span></h2>
+    </div>
+
+    <div class="gallery-grid">
+      <div class="gallery-item aos"><div class="gallery-ph"><span class="icon">📷</span><span>患者様との写真 1</span></div></div>
+      <div class="gallery-item aos"><div class="gallery-ph"><span class="icon">📷</span><span>患者様との写真 2</span></div></div>
+      <div class="gallery-item aos"><div class="gallery-ph"><span class="icon">📷</span><span>患者様との写真 3</span></div></div>
+      <div class="gallery-item aos"><div class="gallery-ph"><span class="icon">📷</span><span>患者様との写真 4</span></div></div>
+      <div class="gallery-item aos"><div class="gallery-ph"><span class="icon">📷</span><span>患者様との写真 5</span></div></div>
+      <div class="gallery-item aos"><div class="gallery-ph"><span class="icon">📷</span><span>患者様との写真 6</span></div></div>
+      <div class="gallery-item aos"><div class="gallery-ph"><span class="icon">📷</span><span>患者様との写真 7</span></div></div>
+      <div class="gallery-item aos"><div class="gallery-ph"><span class="icon">📷</span><span>患者様との写真 8</span></div></div>
+      <div class="gallery-item aos"><div class="gallery-ph"><span class="icon">📷</span><span>患者様との写真 9</span></div></div>
+      <div class="gallery-item aos"><div class="gallery-ph"><span class="icon">📷</span><span>患者様との写真 10</span></div></div>
+      <div class="gallery-item aos"><div class="gallery-ph"><span class="icon">📷</span><span>患者様との写真 11</span></div></div>
+      <div class="gallery-item aos"><div class="gallery-ph"><span class="icon">📷</span><span>患者様との写真 12</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 院長の想い動画 ===== -->
+<section class="section video-section">
+  <div class="container">
+    <div class="text-center aos">
+      <span class="section-tag">🎬 MESSAGE</span>
+      <h2 class="section-title">院長が語る、<br><span class="accent">矯正にかける想い</span></h2>
+    </div>
+
+    <div class="video-card aos">
+      <div class="video-placeholder">
+        <div class="play-icon">▶</div>
+        <p>院長メッセージ動画をここに埋め込み</p>
+        <p style="font-size:0.72rem;">※YouTube iframe または video タグに差し替え</p>
+      </div>
+      <div class="video-caption">
+        <strong>「口ゴボは、矯正で変えられます。」</strong><br>
+        20年以上、矯正治療に向き合ってきた座馬院長が、口ゴボ治療への想いと、ひさぱ式にかける思いを語ります。
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA (ギャラリー後) ===== -->
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-box aos">
+      <div class="cta-heading">あなたの口ゴボも、<br><span class="accent">変えられるかもしれません。</span></div>
+      <div class="cta-badges">
+        <span class="cta-badge">🕐 所要 約60分</span>
+        <span class="cta-badge">💰 完全無料</span>
+        <span class="cta-badge">🤝 勧誘なし</span>
+      </div>
+      <a href="#contact" class="btn btn-primary">無料で相談・検査する</a>
+      <div class="cta-notes">
+        <span>相談だけでもOK</span>
+        <span>24時間WEB受付</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ④ ひさぱ式口ゴボ矯正の症例 ===== -->
+<section class="section cases" id="case-section">
+  <div class="container">
+    <div class="text-center aos">
+      <span class="section-tag">📸 CASES</span>
+      <h2 class="section-title">口元が変わると、<br><span class="accent">顔の印象はここまで変わります。</span></h2>
+    </div>
+
+    <p class="section-lead aos">口ゴボを改善した方の横顔をご覧ください。<br>口元が数ミリ変わるだけで、横顔、笑顔、写真に写る自分の印象が大きく変わります。</p>
+
+    <div class="case-cards">
+      <div class="case-card aos">
+        <div class="case-images">
+          <div class="case-img-wrap"><span class="case-label before">Before</span><div class="case-placeholder"><span class="icon">🦷</span><span>横顔Before</span></div></div>
+          <div class="case-img-wrap"><span class="case-label after">After</span><div class="case-placeholder"><span class="icon">✨</span><span>横顔After</span></div></div>
+        </div>
+        <div class="case-info">
+          <p class="case-point">Eラインが整い、横顔のシルエットが改善</p>
+          <p class="case-detail">21歳・女性｜マウスピース矯正（無制限コース）｜治療期間：約1年半｜費用：528,000円（税込）</p>
+          <p class="case-risk">リスク・副作用：治療初期に軽度の痛み・違和感が生じる場合があります。治療期間には個人差があります。</p>
+        </div>
+      </div>
+
+      <div class="case-card aos">
+        <div class="case-images">
+          <div class="case-img-wrap"><span class="case-label before">Before</span><div class="case-placeholder"><span class="icon">🦷</span><span>横顔Before</span></div></div>
+          <div class="case-img-wrap"><span class="case-label after">After</span><div class="case-placeholder"><span class="icon">✨</span><span>横顔After</span></div></div>
+        </div>
+        <div class="case-info">
+          <p class="case-point">口唇閉鎖時の緊張が緩和し、口元がすっきり</p>
+          <p class="case-detail">28歳・女性｜ワイヤー矯正｜治療期間：約1年半｜費用：660,000円（税込）</p>
+          <p class="case-risk">リスク・副作用：治療初期に軽度の痛み・違和感が生じる場合があります。治療期間には個人差があります。</p>
+        </div>
+      </div>
+
+      <div class="case-card aos">
+        <div class="case-images">
+          <div class="case-img-wrap"><span class="case-label before">Before</span><div class="case-placeholder"><span class="icon">🦷</span><span>横顔Before</span></div></div>
+          <div class="case-img-wrap"><span class="case-label after">After</span><div class="case-placeholder"><span class="icon">✨</span><span>横顔After</span></div></div>
+        </div>
+        <div class="case-info">
+          <p class="case-point">※追加の口ゴボ症例が入り次第差し替え</p>
+          <p class="case-detail">年齢・性別｜治療方法｜治療期間：◯ヶ月｜費用：◯円（税込）</p>
+          <p class="case-risk">リスク・副作用：治療初期に軽度の痛み・違和感が生じる場合があります。治療期間には個人差があります。</p>
+        </div>
+      </div>
+
+      <div class="case-card aos">
+        <div class="case-images">
+          <div class="case-img-wrap"><span class="case-label before">Before</span><div class="case-placeholder"><span class="icon">🦷</span><span>横顔Before</span></div></div>
+          <div class="case-img-wrap"><span class="case-label after">After</span><div class="case-placeholder"><span class="icon">✨</span><span>横顔After</span></div></div>
+        </div>
+        <div class="case-info">
+          <p class="case-point">※追加の口ゴボ症例が入り次第差し替え</p>
+          <p class="case-detail">年齢・性別｜治療方法｜治療期間：◯ヶ月｜費用：◯円（税込）</p>
+          <p class="case-risk">リスク・副作用：治療初期に軽度の痛み・違和感が生じる場合があります。治療期間には個人差があります。</p>
+        </div>
+      </div>
+    </div>
+
+    <p class="case-note">※治療効果には個人差があります。</p>
+
+    <div class="text-center aos" style="margin-top:32px;">
+      <a href="#contact" class="btn btn-primary">自分の口ゴボはどう変わる？ 無料で相談する</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA 2 ===== -->
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-box aos">
+      <div class="cta-heading">あなたの口ゴボ、<br><span class="accent">3Dシミュレーション</span>で<br>治療後の横顔をお見せします。</div>
+      <p style="font-size:0.88rem; color:#555; margin-bottom:16px;">無制限コース <strong style="color:#c57888; font-size:1.1em;">528,000円</strong>（税込）｜デンタルローンなら<strong style="color:#c57888;">月々約8,000円</strong>〜 ｜ 相談・検査 <strong style="color:#c57888;">0円</strong></p>
+      <a href="#contact" class="btn btn-primary">無料で相談・検査する</a>
+      <div class="cta-notes">
+        <span>相談だけでもOK</span>
+        <span>無理な勧誘なし</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 料金プラン ===== -->
+<section class="section pricing" id="pricing-section">
+  <div class="container">
+    <div class="text-center aos">
+      <span class="section-tag">💰 PRICING</span>
+      <h2 class="section-title">わかりやすい料金。<br><span class="accent">追加費用は一切なし。</span></h2>
+    </div>
+
+    <p class="section-lead aos">ひさぱ式口ゴボ矯正は、治療費以外の追加費用がかかりません。<br>相談・検査・調整料・保定装置まで、すべてコミコミです。</p>
+
+    <!-- 4枚コース -->
+    <div class="pricing-card aos">
+      <div class="pricing-name">4枚コース</div>
+      <div class="pricing-desc">軽度の口ゴボ・部分的な改善に</div>
+      <div class="pricing-price poppins"><span class="yen">¥</span>107,800 <span class="tax">（税込）</span></div>
+      <div class="pricing-monthly">12回分割（手数料0円）: 月々 約8,983円</div>
+      <div class="pricing-monthly">デンタルローン24回: 月々 約4,700円〜</div>
+      <ul class="pricing-includes">
+        <li>相談・精密検査 0円</li>
+        <li>調整料 0円</li>
+        <li>3Dシミュレーション 0円</li>
+      </ul>
+    </div>
+
+    <!-- 8枚コース -->
+    <div class="pricing-card aos">
+      <div class="pricing-name">8枚コース</div>
+      <div class="pricing-desc">中程度の改善・前歯中心の口ゴボに</div>
+      <div class="pricing-price poppins"><span class="yen">¥</span>231,000 <span class="tax">（税込）</span></div>
+      <div class="pricing-monthly">12回分割（手数料0円）: 月々 約19,250円</div>
+      <div class="pricing-monthly">デンタルローン24回: 月々 約10,000円〜</div>
+      <ul class="pricing-includes">
+        <li>相談・精密検査 0円</li>
+        <li>調整料 0円</li>
+        <li>3Dシミュレーション 0円</li>
+      </ul>
+    </div>
+
+    <!-- 12枚コース -->
+    <div class="pricing-card aos">
+      <div class="pricing-name">12枚コース</div>
+      <div class="pricing-desc">中〜やや重度の口ゴボに</div>
+      <div class="pricing-price poppins"><span class="yen">¥</span>352,000 <span class="tax">（税込）</span></div>
+      <div class="pricing-monthly">12回分割（手数料0円）: 月々 約29,333円</div>
+      <div class="pricing-monthly">デンタルローン36回: 月々 約10,500円〜</div>
+      <ul class="pricing-includes">
+        <li>相談・精密検査 0円</li>
+        <li>調整料 0円</li>
+        <li>3Dシミュレーション 0円</li>
+      </ul>
+    </div>
+
+    <!-- 無制限コース（おすすめ） -->
+    <div class="pricing-card recommended aos">
+      <span class="pricing-recommend-badge">口ゴボ治療に一番人気</span>
+      <div class="pricing-name" style="margin-top:8px;">無制限コース</div>
+      <div class="pricing-desc">口ゴボをしっかり改善したい方に。納得いくまで治療できます。</div>
+      <div class="pricing-price poppins"><span class="yen">¥</span>528,000 <span class="tax">（税込）</span></div>
+      <div class="pricing-monthly">12回分割（手数料0円）: 月々 約44,000円</div>
+      <div class="pricing-monthly" style="color:#c57888; font-weight:700;">デンタルローン84回: 月々 約8,000円〜</div>
+      <ul class="pricing-includes" style="margin-top:16px;">
+        <li>相談・精密検査 0円</li>
+        <li>調整料（何回でも） 0円</li>
+        <li>3Dシミュレーション 0円</li>
+        <li>保定装置（後戻り防止） 0円</li>
+        <li>ホワイトニング 0円</li>
+        <li>再セットアップ 0円</li>
+        <li>アライナーケース・リムーバー 0円</li>
+        <li>12回分割手数料 0円</li>
+      </ul>
+      <p style="font-size:0.82rem; color:#c57888; font-weight:700; margin-top:12px; text-align:center;">
+        通常10万円以上かかるオプションが、すべて含まれています。
+      </p>
+    </div>
+
+    <p style="font-size:0.78rem; color:#999; text-align:center; margin-top:8px;">
+      ※デンタルローンは審査により金利・月額が異なります。詳しくは無料相談時にご案内します。
+    </p>
+
+    <!-- 他院との比較 -->
+    <div class="merit-card aos" style="margin-top:28px;">
+      <h3 style="font-size:1rem; margin-bottom:12px;">他院と比べると、これだけ違います。</h3>
+
+      <div class="compare-others">
+        <table class="others-table">
+          <thead><tr><th></th><th>他院（相場）</th><th>ひさぱ</th></tr></thead>
+          <tbody>
+            <tr><td>治療費</td><td>80〜100万円</td><td style="color:#c57888; font-weight:900;">528,000円</td></tr>
+            <tr><td>相談・検査</td><td>3〜5万円</td><td>0円</td></tr>
+            <tr><td>調整料</td><td>5,000円×複数回</td><td>0円</td></tr>
+            <tr><td>保定装置</td><td>3〜5万円</td><td>0円</td></tr>
+            <tr><td>12回分割手数料</td><td>数万円</td><td>0円</td></tr>
+            <tr style="background:#fdf2f0; font-weight:900;"><td>12回分割の月々</td><td>約75,000〜90,000円</td><td style="color:#c57888; font-size:1.05rem;">約44,000円</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p style="font-size:0.92rem; font-weight:900; color:#c57888; text-align:center; margin-top:16px;">
+        12回分割で比べると、毎月3〜5万円の差。
+      </p>
+    </div>
+
+    <div class="text-center aos" style="margin-top:24px;">
+      <a href="#contact" class="btn btn-primary">まずは0円で相談・検査する</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ⑤ 他にはないメリット ===== -->
+<section class="section merits" id="merits-section">
+  <div class="container">
+    <div class="text-center aos">
+      <span class="section-tag">✨ MERITS</span>
+      <h2 class="section-title">ここまでやって、この価格。<br><span class="accent">他に、ありますか？</span></h2>
+    </div>
+
+    <div class="merit-card aos">
+      <span class="merit-num">MERIT 01</span>
+      <h3>528,000円、しかも0円だらけ。<br>他院と比べてください。</h3>
+      <p>「矯正って100万円かかるんでしょ？」そう思っている方、多いです。<br>ひさぱ式口ゴボ矯正は、無制限コースでも<strong>528,000円（税込）</strong>。<br>他院の相場（80〜100万円）の<strong>約半額</strong>です。</p>
+
+      <div class="price-table-wrap" style="margin-top:16px;">
+        <table class="price-table">
+          <thead>
+            <tr><th>コース</th><th>期間の目安</th><th>料金（税込）</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>4枚</td><td>1.5〜2.5ヶ月</td><td>107,800円</td></tr>
+            <tr><td>8枚</td><td>3〜4ヶ月</td><td>231,000円</td></tr>
+            <tr><td>12枚</td><td>4〜6ヶ月</td><td>352,000円</td></tr>
+            <tr class="highlight-row"><td>無制限</td><td>6ヶ月〜</td><td>528,000円</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 分割シミュレーション -->
+      <h4 style="font-size:0.95rem; font-weight:900; color:#3d2c2c; margin:24px 0 8px;">12回分割なら手数料0円。<br>デンタルローンならさらに安く。</h4>
+      <p style="font-size:0.85rem; color:#555; margin-bottom:12px;">無制限コース 528,000円（税込）の場合</p>
+
+      <div class="price-table-wrap">
+        <table class="price-table">
+          <thead>
+            <tr><th>支払い方法</th><th>月々のお支払い</th><th>備考</th></tr>
+          </thead>
+          <tbody>
+            <tr class="highlight-row"><td>12回分割<br><span style="font-size:0.7rem;">（手数料0円）</span></td><td>約44,000円</td><td>ひさぱ独自<br>手数料0円</td></tr>
+            <tr><td>ローン 24回</td><td>約23,000円</td><td rowspan="5" style="font-size:0.75rem; color:#999;">ローン会社の<br>審査あり</td></tr>
+            <tr><td>ローン 36回</td><td>約16,000円</td></tr>
+            <tr><td>ローン 48回</td><td>約12,500円</td></tr>
+            <tr><td>ローン 60回</td><td>約10,500円</td></tr>
+            <tr><td>ローン 84回</td><td>約8,000円〜</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="font-size:0.72rem; color:#999; margin-top:4px;">※デンタルローンは審査により金利・月額が異なります。詳しくは無料相談時にご案内します。</p>
+
+      <!-- 他院との比較 -->
+      <h4 style="font-size:0.95rem; font-weight:900; color:#3d2c2c; margin:24px 0 8px;">他院と12回分割で比べると、これだけ違います。</h4>
+
+      <div class="compare-others">
+        <table class="others-table">
+          <thead><tr><th></th><th>他院（相場）</th><th>ひさぱ</th></tr></thead>
+          <tbody>
+            <tr><td>治療費</td><td>80〜100万円</td><td style="color:#c57888; font-weight:900;">528,000円</td></tr>
+            <tr><td>相談・検査</td><td>3〜5万円</td><td>0円</td></tr>
+            <tr><td>調整料</td><td>5,000円×複数回</td><td>0円</td></tr>
+            <tr><td>保定装置</td><td>3〜5万円</td><td>0円</td></tr>
+            <tr><td>12回分割手数料</td><td>数万円</td><td>0円</td></tr>
+            <tr style="background:#fdf2f0; font-weight:900;"><td>12回分割の月々</td><td>約75,000〜90,000円</td><td style="color:#c57888; font-size:1.05rem;">約44,000円</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p style="font-size:1rem; font-weight:900; color:#c57888; text-align:center; margin:16px 0 4px;">
+        12回分割で比べると、毎月3〜5万円の差。
+      </p>
+      <p style="font-size:0.85rem; color:#555; text-align:center;">
+        デンタルローンなら月々約8,000円〜で始められます。
+      </p>
+
+      <!-- 0円グリッド -->
+      <h4 style="font-size:0.95rem; font-weight:900; color:#3d2c2c; margin:28px 0 12px;">通常有料なのに、ひさぱなら全部0円。</h4>
+
+      <div class="zero-grid">
+        <div class="zero-card"><span class="zero-label">相談</span><span class="zero-price">0円</span></div>
+        <div class="zero-card"><span class="zero-label">精密検査</span><span class="zero-price">0円</span></div>
+        <div class="zero-card"><span class="zero-label">調整料</span><span class="zero-price">0円</span></div>
+        <div class="zero-card"><span class="zero-label">保定装置</span><span class="zero-price">0円</span></div>
+        <div class="zero-card"><span class="zero-label">3Dシミュレーション</span><span class="zero-price">0円</span></div>
+        <div class="zero-card"><span class="zero-label">ホワイトニング</span><span class="zero-price">0円<span class="zero-note">※</span></span></div>
+        <div class="zero-card"><span class="zero-label">再セットアップ</span><span class="zero-price">0円<span class="zero-note">※</span></span></div>
+        <div class="zero-card"><span class="zero-label">ケース・リムーバー</span><span class="zero-price">0円</span></div>
+        <div class="zero-card"><span class="zero-label">12回分割手数料</span><span class="zero-price">0円</span></div>
+      </div>
+      <p style="font-size:0.72rem; color:#999;">※無制限コースのみ対象</p>
+
+      <p style="font-size:0.88rem; color:#3d2c2c; font-weight:700; text-align:center; margin-top:16px;">
+        通常10万円以上かかるオプションが、すべて含まれています。<br>
+        <span style="color:#c57888;">他院の見積もりと、ぜひ比べてみてください。</span>
+      </p>
+    </div>
+
+    <div class="merit-card aos">
+      <span class="merit-num">MERIT 02</span>
+      <h3>栄駅 徒歩1分。通院回数も最小限。</h3>
+      <p>久屋パーク歯科は、栄駅13番出口から徒歩1分。仕事帰りでも、休日でも通いやすい立地です。<br><br>さらに、<strong>デンタルモニタリングアプリ</strong>を導入。自宅からスマホで経過報告ができるので、通院回数を大幅に減らせます。</p>
+
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-top:16px;">
+        <div class="img-ph img-ph-blue" style="aspect-ratio:4/3;">
+          <span class="icon">🏥</span>
+          <span class="label">院内の様子</span>
+          <span class="hint">清潔感のある受付 or 診療室</span>
+        </div>
+        <div class="img-ph img-ph-mint" style="aspect-ratio:4/3;">
+          <span class="icon">🚉</span>
+          <span class="label">外観 / アクセス</span>
+          <span class="hint">ビル外観 or 栄駅からの道順</span>
+        </div>
+      </div>
+      <div class="access-cards" style="margin-top:16px;">
+        <div class="acc-card"><div class="acc-icon">🚉</div><div class="acc-title">栄駅 徒歩1分</div><div class="acc-desc">13番出口すぐ</div></div>
+        <div class="acc-card"><div class="acc-icon">📅</div><div class="acc-title">土曜診療あり</div><div class="acc-desc">9:30〜15:00</div></div>
+        <div class="acc-card"><div class="acc-icon">📱</div><div class="acc-title">アプリで通院軽減</div><div class="acc-desc">自宅から経過報告OK</div></div>
+        <div class="acc-card"><div class="acc-icon">🗾</div><div class="acc-title">県外からも多数</div><div class="acc-desc">ご来院いただいています</div></div>
+      </div>
+    </div>
+
+    <div class="text-center aos" style="margin-top:16px;">
+      <a href="#contact" class="btn btn-primary">0円で相談・検査してみる</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ⑥ 治療の流れ ===== -->
+<section class="section steps" id="flow">
+  <div class="container">
+    <div class="text-center aos">
+      <span class="section-tag">📋 FLOW</span>
+      <h2 class="section-title">初めてでも安心。<br><span class="accent">相談から治療完了まで</span>、<br>すべてお見せします。</h2>
+    </div>
+
+    <div class="step-list">
+      <div class="step-item aos">
+        <div class="step-num">1</div>
+        <h4>無料カウンセリング</h4>
+        <p>口ゴボのお悩みを丁寧にお聞きします。個室で、リラックスしてお話しください。矯正の種類や費用についても、分かりやすくご説明します。</p>
+        <div class="img-ph img-ph-rose" style="aspect-ratio:16/9; margin-top:10px;">
+          <span class="icon">🗣️</span>
+          <span class="label">カウンセリング風景</span>
+          <span class="hint">個室で患者さんと話している写真</span>
+        </div>
+      </div>
+      <div class="step-item aos">
+        <div class="step-num">2</div>
+        <h4>精密検査（無料）</h4>
+        <p>3Dスキャナーで歯並びをスキャン。高性能CTで骨格の状態まで確認します。通常3〜5万円かかる検査が、ひさぱでは<strong>0円</strong>です。</p>
+        <div class="img-ph img-ph-blue" style="aspect-ratio:16/9; margin-top:10px;">
+          <span class="icon">🔬</span>
+          <span class="label">3Dスキャナー / CT撮影</span>
+          <span class="hint">スキャン中の様子 or 設備の写真</span>
+        </div>
+      </div>
+      <div class="step-item aos">
+        <div class="step-num">3</div>
+        <h4>治療計画のご説明</h4>
+        <p>検査結果をもとに、あなた専用の治療計画を作成。3Dシミュレーションで、<strong>治療後のあなたの横顔</strong>を事前にお見せします。ご納得いただいてから治療を開始します。</p>
+        <div class="img-ph img-ph-mint" style="aspect-ratio:16/9; margin-top:10px;">
+          <span class="icon">🖥️</span>
+          <span class="label">3Dシミュレーション説明</span>
+          <span class="hint">モニターで治療計画を患者さんに説明している写真</span>
+        </div>
+      </div>
+      <div class="step-item aos">
+        <div class="step-num">4</div>
+        <h4>治療開始</h4>
+        <p>マウスピースを装着。ご自宅で、スケジュールに沿って交換するだけです。透明で目立たないので、日常生活に支障はほとんどありません。</p>
+        <div class="img-ph img-ph-rose" style="aspect-ratio:16/9; margin-top:10px;">
+          <span class="icon">😊</span>
+          <span class="label">マウスピース装着</span>
+          <span class="hint">マウスピースを持っている or 装着中の写真</span>
+        </div>
+      </div>
+      <div class="step-item aos">
+        <div class="step-num">5</div>
+        <h4>定期チェック</h4>
+        <p>デンタルモニタリングアプリで、自宅から経過を報告できます。通院は最小限でOK。お忙しい方でも続けやすい仕組みです。</p>
+        <div class="img-ph img-ph-blue" style="aspect-ratio:16/9; margin-top:10px;">
+          <span class="icon">📱</span>
+          <span class="label">デンタルモニタリングアプリ</span>
+          <span class="hint">スマホでアプリを操作している写真 or アプリ画面キャプチャ</span>
+        </div>
+      </div>
+      <div class="step-item aos">
+        <div class="step-num">6</div>
+        <h4>治療完了 → 保定</h4>
+        <p>治療完了後は、後戻り防止の保定装置を装着します。保定装置の費用は<strong>0円</strong>（無制限コース）。変わった横顔を、ずっとキープできます。</p>
+        <div class="img-ph img-ph-gold" style="aspect-ratio:16/9; margin-top:10px;">
+          <span class="icon">✨</span>
+          <span class="label">治療完了後の笑顔</span>
+          <span class="hint">治療を終えた患者さんの笑顔 or 横顔After写真</span>
+        </div>
+      </div>
+    </div>
+
+    <p class="text-center aos" style="font-size:0.92rem; font-weight:700; color:#3d2c2c; margin-top:8px;">
+      まずはSTEP1の無料カウンセリングだけでもOKです。<br>
+      <span style="color:#c57888;">相談したからといって、治療を始める必要はありません。</span>
+    </p>
+  </div>
+</section>
+
+<!-- ===== ⑦ FAQ ===== -->
+<section class="section faq-section" id="faq-section">
+  <div class="container">
+    <div class="text-center aos">
+      <span class="section-tag">❓ FAQ</span>
+      <h2 class="section-title">口ゴボ矯正、<br><span class="accent">気になること全部</span>答えます。</h2>
+    </div>
+
+    <div class="faq-list">
+      <div class="faq-item open aos">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span class="faq-q-badge">Q</span>
+          <span class="faq-q-text">口ゴボはマウスピース矯正で治りますか？</span>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-a"><div class="faq-a-inner">多くのケースで改善が可能です。当院はマウスピース矯正の症例数で日本No.1※の実績があり、口ゴボの治療を得意としています。まずは無料検査で、対応可能かどうかを確認いたします。<br>※クリアコレクト症例数</div></div>
+      </div>
+      <div class="faq-item aos">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span class="faq-q-badge">Q</span>
+          <span class="faq-q-text">自分の口ゴボがどの程度改善できるか事前にわかりますか？</span>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-a"><div class="faq-a-inner">はい。精密検査後、3Dシミュレーションで治療後の歯並び・横顔のラインをお見せできます。「ゴール」が見えた上で治療を始められるので安心です。</div></div>
+      </div>
+      <div class="faq-item aos">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span class="faq-q-badge">Q</span>
+          <span class="faq-q-text">痛みはありますか？</span>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-a"><div class="faq-a-inner">マウスピース矯正の痛みは、ワイヤー矯正の約1/10程度です。装着初期に軽い違和感がある場合がありますが、1週間ほどで慣れる方がほとんどです。</div></div>
+      </div>
+      <div class="faq-item aos">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span class="faq-q-badge">Q</span>
+          <span class="faq-q-text">治療期間はどのくらいですか？</span>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-a"><div class="faq-a-inner">口ゴボの程度や歯並びの状態によりますが、1年〜1年半が目安です。光加速装置を併用することで、約6ヶ月短縮できる場合もあります。※個人差があります。</div></div>
+      </div>
+      <div class="faq-item aos">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span class="faq-q-badge">Q</span>
+          <span class="faq-q-text">矯正中、周りにバレませんか？</span>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-a"><div class="faq-a-inner">透明なマウスピースなので、ほとんど気づかれません。接客業や営業職の方も多く治療されています。</div></div>
+      </div>
+      <div class="faq-item aos">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span class="faq-q-badge">Q</span>
+          <span class="faq-q-text">他院で「マウスピースでは難しい」と言われました。</span>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-a"><div class="faq-a-inner">ぜひセカンドオピニオンとしてご相談ください。当院では、他院で対応が難しいとされた口ゴボ症例の治療実績も多数あります。</div></div>
+      </div>
+      <div class="faq-item aos">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span class="faq-q-badge">Q</span>
+          <span class="faq-q-text">相談したら、治療しないといけませんか？</span>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-a"><div class="faq-a-inner">いいえ。相談・検査だけでも大歓迎です。無理に治療をおすすめすることはありません。検査結果を持ち帰って、ゆっくりご検討ください。</div></div>
+      </div>
+      <div class="faq-item aos">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span class="faq-q-badge">Q</span>
+          <span class="faq-q-text">分割払いはできますか？</span>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-a"><div class="faq-a-inner">はい。12回まで分割手数料0円でお支払いいただけます。無制限コースの場合、月々約44,000円です。</div></div>
+      </div>
+      <div class="faq-item aos">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span class="faq-q-badge">Q</span>
+          <span class="faq-q-text">口ゴボの治療は医療費控除の対象になりますか？</span>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-a"><div class="faq-a-inner">噛み合わせの改善を目的とする矯正治療は、医療費控除の対象になります。確定申告で税金の一部が還付されるため、実質的な負担を軽減できます。詳しくはカウンセリング時にご説明します。</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ⑧ クロージング ===== -->
+<section class="section closing" id="contact">
+  <div class="container">
+    <div class="closing-box aos">
+      <!-- スタッフ集合写真 -->
+      <div class="img-ph img-ph-rose" style="aspect-ratio:16/9; margin-bottom:24px; border-radius:16px;">
+        <span class="icon">👨‍⚕️👩‍⚕️</span>
+        <span class="label">院長＋スタッフ集合写真</span>
+        <span class="hint">笑顔で温かい雰囲気の集合写真</span>
+      </div>
+      <div class="closing-heading">口ゴボ、ずっと<br>気になったままでいいですか？</div>
+      <p class="closing-text">
+        まだ「矯正するかどうか」を決める必要はありません。<br>
+        まずは無料の検査で、あなたの口元がどう変わるかを見てみてください。<br>
+        <strong>やるかどうかは、それを見てから決めても遅くありません。</strong>
+      </p>
+
+      <ul class="check-list">
+        <li>相談・検査は完全無料</li>
+        <li>無理な勧誘は一切しません</li>
+        <li>相談だけ・検査だけでもOK</li>
+        <li>所要時間は約60分</li>
+      </ul>
+
+      <div class="cta-triple">
+        <a href="#" class="btn btn-primary">📱 WEB予約（24時間OK）</a>
+        <a href="#" class="btn btn-line">💬 LINE予約</a>
+        <a href="tel:0522118251" class="btn btn-tel">📞 電話で予約する（052-211-8251）</a>
+      </div>
+
+      <div class="clinic-info">
+        <strong>久屋パーク歯科・矯正歯科</strong><br>
+        〒460-0008 名古屋市中区栄4-14-2 久屋パークビル9F<br>
+        栄駅13番出口 徒歩1分<br>
+        月〜金 9:30〜18:30 / 土 9:30〜15:00（完全予約制）
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Notes ===== -->
+<div class="lp-notes">
+  <p>
+    ※ 症例数日本No.1：クリアコレクト症例数（2025年10月時点）<br>
+    ※ 治療効果には個人差があります<br>
+    ※ 月々約8,000円〜はデンタルローン84回払いの場合の目安です。審査により金利・月額が異なります<br>
+    ※ 月々44,000円は無制限コース528,000円（税込）の12回分割（手数料0円）の場合です<br>
+    ※ ホワイトニング・再セットアップの無料対象は無制限コースのみです
+  </p>
+</div>
+
+<!-- ===== Footer ===== -->
+<footer class="footer">
+  © 久屋パーク歯科・矯正歯科｜名古屋市中区栄
+</footer>
+
+<!-- ===== Floating CTA ===== -->
+<div class="float-bar" id="floatBar">
+  <a href="#contact" class="btn btn-primary">無料で口ゴボ相談する →</a>
+  <div class="float-bar-sub">相談だけでもOK・24時間WEB受付</div>
+</div>
+
+<script>
+const obs = new IntersectionObserver((entries) => {
+  entries.forEach((e, i) => {
+    if (e.isIntersecting) {
+      setTimeout(() => e.target.classList.add('visible'), i * 50);
+      obs.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.1, rootMargin: '0px 0px -30px 0px' });
+document.querySelectorAll('.aos').forEach(el => obs.observe(el));
+
+function toggleFaq(el) {
+  const item = el.closest('.faq-item');
+  const wasOpen = item.classList.contains('open');
+  document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+  if (!wasOpen) item.classList.add('open');
+}
+
+// Float bar show/hide
+const floatBar = document.getElementById('floatBar');
+let lastScroll = 0;
+window.addEventListener('scroll', () => {
+  floatBar.style.transform = window.scrollY > 400 ? 'translateY(0)' : 'translateY(100%)';
+});
+floatBar.style.transform = 'translateY(100%)';
+floatBar.style.transition = 'transform 0.3s ease';
+</script>
+</body>
+</html>
